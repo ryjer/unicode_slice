@@ -19,4 +19,6 @@
     void unicode切片_追加(unicode切片 * 切片指针, unicode字符 待追加字符); //√ 已测试
     void unicode切片_文件打印(unicode切片 * 切片指针, FILE * 输出文件); //√ 已测试
     void unicode切片_文件序列化打印(unicode切片 * 切片指针, FILE * 输出文件); //√ 已测试
+
+    int64_t unicode切片_转整数(unicode切片 * 切片指针, uint8_t 进制); //√ 已测试
 #endif
