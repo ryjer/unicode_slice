@@ -1,5 +1,5 @@
-#ifndef UNICODE_SLICE_H
-#define UNICODE_SLICE_H
+#ifndef SLICE_UNICODE_H
+#define SLICE_UNICODE_H
 
     #include "utf8_unicode/utf8_unicode.h"
     #include <stdint.h>
