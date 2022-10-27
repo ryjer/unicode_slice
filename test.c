@@ -1,7 +1,7 @@
 #include "utf8_unicode/utf8_unicode.h"
-#include "unicode_slice.h"
+#include "slice_unicode.h"
 
-// gcc -g -Wall test.c unicode_slice.c utf8_unicode/utf8_unicode.c && ./a.out
+// gcc -g -Wall test.c slice_unicode.c utf8_unicode/utf8_unicode.c && ./a.out
 // 测试用例
 int main() {
     unicode切片 切片;
