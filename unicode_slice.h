@@ -3,7 +3,7 @@
 
     #include "utf8_unicode/utf8_unicode.h"
     #include <stdint.h>
-    
+
     // unicode 切片结构体，参考go切片、rust切片等切片设计
     typedef struct {
         uint32_t 长度;
@@ -21,4 +21,5 @@
     void unicode切片_文件序列化打印(unicode切片 * 切片指针, FILE * 输出文件); //√ 已测试
 
     int64_t unicode切片_转整数(unicode切片 * 切片指针, uint8_t 进制); //√ 已测试
+    uint32_t unicode切片_计算散列值(unicode切片 * 切片指针, uint32_t 最大值); //√ 已测试
 #endif

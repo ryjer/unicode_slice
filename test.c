@@ -12,6 +12,7 @@ int main() {
     fputc('\n', stdout);
     // test.txt 文件字符追加
     fprintf(stdout, "字符追加s测试中......\n");
+    // utf8文件读取
     FILE * inputFile = fopen("test.txt", "r");
     utf8字符体 输入字符 = 文件_读取utf8字符(inputFile); // 读取utf8编码
     while (输入字符.长度 != 0) {
