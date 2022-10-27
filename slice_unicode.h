@@ -21,6 +21,7 @@
     void unicode切片_文件打印(unicode切片 * 切片指针, FILE * 输出文件); //√ 已测试
     void unicode切片_文件序列化打印(unicode切片 * 切片指针, FILE * 输出文件); //√ 已测试
     // 以下为 纯函数
+    bool unicode切片_判等(unicode切片 * 被比对切片, unicode切片 比对切片);
     int64_t unicode切片_转整数(unicode切片 * 切片指针, uint8_t 进制); //√ 已测试
     uint32_t unicode切片_计算散列值(unicode切片 * 切片指针, uint32_t 最大值); //√ 已测试
 #endif
