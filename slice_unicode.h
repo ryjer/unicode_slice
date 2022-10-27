@@ -1,7 +1,7 @@
 #ifndef SLICE_UNICODE_H
 #define SLICE_UNICODE_H
 
-    #include "utf8_unicode/utf8_unicode.h"
+    #include "../utf8_unicode/utf8_unicode.h"
     #include <stdint.h>
 
     // unicode切片结构体，支持最多6,5536个字符，参考go切片、rust切片等切片设计
