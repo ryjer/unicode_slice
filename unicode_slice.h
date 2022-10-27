@@ -3,7 +3,7 @@
 
     #include "utf8_unicode/utf8_unicode.h"
     #include <stdint.h>
-    #include <stdlib.h>
+    
     // unicode 切片结构体，参考go切片、rust切片等切片设计
     typedef struct {
         uint32_t 长度;

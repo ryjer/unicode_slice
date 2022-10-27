@@ -1,4 +1,5 @@
 #include "unicode_slice.h"
+#include <stdlib.h>
 /**********************************************************
  * 初始化unicode切片
  * 切片指针：unicode切片/字符串存储结构
