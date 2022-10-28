@@ -5,7 +5,13 @@
     #include <stdint.h>
     #include <stdio.h>
     #include <stdlib.h>
-
+    // unicode 只读 静态串结构，使用 变长数组
+    typedef struct {
+        uint16_t 长度;
+        uint16_t 容量;
+        unicode字符 静态串[0];
+    } unicode静态串;
+    
     // unicode切片结构体，支持最多6,5536个字符，参考go切片、rust切片等切片设计
     typedef struct {
         uint16_t 长度;
