@@ -25,7 +25,8 @@
 
     // 提供以下操作函数
     void        unicode切片_初始化(unicode切片 * 切片指针, int 初始容量); //√ 已测试
-    unicode切片 原始utf8字符串转unicode切片(char * utf8字符串);
+    char*       unicode切片转原始utf8字符串(unicode切片 切片);
+    unicode切片 原始utf8字符串转unicode切片(char * utf8字符串); //√ 已测试
     void        unicode切片_清空(unicode切片 * 切片指针); //√ 已测试
     void        unicode切片_重置(unicode切片 * 切片指针); //√ 已测试
     void        unicode切片_扩容(unicode切片 * 切片指针, int 期望容量);  //√ 已测试
