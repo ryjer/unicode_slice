@@ -25,7 +25,7 @@
 
     // 提供以下操作函数
     void        unicode切片_初始化(unicode切片 * 切片指针, int 初始容量); //√ 已测试
-    char*       unicode切片转原始utf8字符串(unicode切片 切片);
+    char*       unicode切片转原始utf8字符串(unicode切片 切片); //√ 已测试
     unicode切片 原始utf8字符串转unicode切片(char * utf8字符串); //√ 已测试
     void        unicode切片_清空(unicode切片 * 切片指针); //√ 已测试
     void        unicode切片_重置(unicode切片 * 切片指针); //√ 已测试
@@ -36,6 +36,7 @@
     void        unicode切片_文件序列化打印(unicode切片 切片, FILE * 输出文件); //√ 已测试
     // 以下为 纯函数
     bool        unicode切片_判等(unicode切片 被比对切片, unicode切片 比对切片); //√ 已测试
+    bool        unicode切片_原始utf8字符串_判等(unicode切片 被比对切片, char* utf8字符串指针); //√ 已测试
     int64_t     unicode切片_转整数(unicode切片 切片, uint8_t 进制); //√ 已测试
     uint32_t    unicode切片_计算散列值(unicode切片 切片, uint32_t 模); //√ 已测试
 #endif
